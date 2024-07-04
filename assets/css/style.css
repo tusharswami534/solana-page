@@ -1,4 +1,4 @@
-                                /* header */
+/* header */
 
 .w-50px {
     width: 50px;
@@ -32,7 +32,8 @@
     font-weight: 500;
     transition: all 400ms linear;
 }
-.connect-wall:hover{
+
+.connect-wall:hover {
     background-color: var(--sec);
     color: var(--null);
 }
@@ -44,9 +45,10 @@
     font-size: var(--fs-lg);
     font-weight: 400;
     color: var(--dark);
-   
+
 }
-.navbar-link:hover{
+
+.navbar-link:hover {
     color: var(--sec);
 }
 
@@ -56,10 +58,98 @@
 }
 
 
-                                        /* header-end */
-                                        
+/* header-end */
+/* section-1 */
+.bg-img-1 {
+    width: 100%;
+}
 
-@media (max-width:768px) {
+.sec-1-head {
+
+    font-family: var(--poppins);
+    font-size: var(--fs-3xl);
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.max-806 {
+    max-width: 806px;
+}
+
+.bg-color-2 {
+    background-color: var(--main);
+
+}
+
+.top-left {
+    bottom: 0%;
+    right: 37.5%;
+}
+
+.pb-133 {
+    padding-bottom: 133px;
+}
+
+/* section-1-end */
+/* section-2 */
+.bg-color-3 {
+    background-color: var(--primary);
+}
+
+.dis-btn {
+    width: 219px;
+    height: 53px;
+    background-color: var(--sec);
+    color: var(--null);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 400ms linear;
+}
+.dis-btn:hover{
+    background-color: var(--null);
+    color: var(--sec);
+}
+
+.mt-66 {
+    margin-top: 66px;
+}
+
+.sub-heading {
+
+    font-family: var(--poppins);
+    font-size: var(--fs-4xl);
+    font-weight: 700;
+    line-height: 72px;
+    color: var(--dark);
+
+}
+.mt-24{
+    margin-top: 24px;
+}
+
+.sub-footer {
+
+    font-family: var(--poppins);
+    font-size: var(fslg);
+    font-weight: 400;
+    line-height: 32.4px;
+    color: var(--fivth);
+    
+}
+.cursor{
+    cursor: pointer;
+}
+
+
+.max-591 {
+    max-width: 591px;
+}
+/* section-2-end */
+/* section-3 */
+
+
+@media (max-width:992px) {
+
     /* rec-header */
     .nav-link {
         display: flex;
@@ -67,7 +157,7 @@
         background-color: gray;
         width: 100%;
         min-height: 100vh;
-        position: absolute;
+        position: fixed;
         justify-content: center;
         bottom: 0;
         right: -100% !important;
@@ -83,6 +173,7 @@
         display: block;
         z-index: 1;
     }
+
     /* rec-header-end */
 
 }
