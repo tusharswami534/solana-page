@@ -26,33 +26,46 @@
                         <li><a class="text-decoration-none navbar-link" href="/">Tokenomics</a></li>
                         <li><a class="text-decoration-none navbar-link" href="/">Roadmap</a></li>
                         <li><a class="text-decoration-none navbar-link" href="/">Contact</a></li>
-                        <li>                   <a class="connect-wallet text-decoration-none">Connect Wallet</a></li>
+                        <li> <a class="connect-wallet text-decoration-none">Connect Wallet</a></li>
                     </ul>
                 </div>
-                <button class="menu-btn" onclick="navbarbtn()"><i>menu</i></button>
-                <div>
-                    <span></span>
+                <!-- <button class="menu-btn" onclick="navbarbtn()"><i>menu</i></button> -->
+                <div onclick="navbarbtn()" class="line-3 d-block d-lg-none">
+                    <span id="d-n"></span>
+                    <span id="span-id"></span>
+                    <span id="d-n-2"></span>
                 </div>
 
             </nav>
         </div>
     </header>
-    <section class="bg-color-2 min-839  ">
+    <section class="bg-color-2 min-839 min-500 min-400 overflow-hidden  ">
         <img class="bg-img-1" src="assets/img/png/sec-1-img.png" alt="backgraoun-img">
         <div class="container d-flex flex-column position-relative justify-content-center align-items-center">
-            <img class="position-absolute burgar-1" src="assets/img/png/burgar-img.png" alt="burgar-img">
-            <img class="position-absolute bg-2" src="assets/img/png/biurgar-2.png" alt="burgar-1">
-            <img class="position-absolute bg-3" src="assets/img/png/biurgar-2.png" alt="burgar-1">
+            <img class="position-absolute burgar-1 d-none d-lg-block" src="assets/img/png/burgar-img.png"
+                alt="burgar-img">
+            <img class="position-absolute bg-2 " src="assets/img/png/biurgar-2.png" alt="burgar-1">
+            <img class="position-absolute bg-3 d-lg-block d-none" src="assets/img/png/biurgar-2.png" alt="burgar-1">
             <img class="position-absolute bg-4" src="assets/img/png/burgar-img.png" alt="burgar-img">
             <img class="position-absolute bg-5" src="assets/img/png/burgar-img.png" alt="burgar-img">
-            <img class="position-absolute bg-6" src="assets/img/png/biurgar-2.png" alt="burgar-1">
-            <div class="position-relative">
-                <h2 class="sec-1-head text-center mt-73">WELCOME TO</h2>
+            <img class="position-absolute bg-6 d-lg-block d-none" src="assets/img/png/biurgar-2.png" alt="burgar-1">
+            <img class="position-absolute bg-7 " src="assets/img/png/biurgar-2.png" alt="burgar-1">
+            <img class="position-absolute bg-8 d-lg-block d-none" src="assets/img/png/burgar-img.png" alt="burgar-img">
+            <!-- <div class="position-relative">
+            <h2 class="sec-1-head text-center mt-73">WELCOME TO</h2>
                 <div class="logo-sec-1 pb-133 max-806 d-flex align-items-center justify-content-center">
                     <img class="sec-1-logo w-100" src="assets/img/png/big-logo.png" alt="logo">
                 </div>
-                <div>
-                    <img class="position-absolute top-left" src="assets/img/png/sec-logo.png" alt="logo-2">
+                <div class="position-absolute top-left">
+                    <img  src="assets/img/png/sec-logo.png" alt="logo-2">
+                </div>
+            </div> -->
+            <div class="flex-column align-items-center">
+                <h2 class="welcome text-center">WELCOME TO</h2>
+                <div class="row position-relative justify-content-center">
+                    <img src="./assets/img/png/big-logo.png" alt="logo" class="h-100 w-75 logo-img z-2">
+                    <img src="./assets/img/png/sec-logo.png" alt="open"
+                        class="w-25 position-under-icon  position-absolute">
                 </div>
             </div>
         </div>
@@ -168,8 +181,47 @@
         </div>
     </section>
     <!-- time-line -->
-    <section>
+    <section class="bg-color-6">
+        <div class="timeline">
+            <div class="position-relative timeline_box">
+                <div class="sm-container after-left left">
+                    <div class="content">
+                        <h2>Q4
+                            2021</h2>
+                        <ol>
+                            <li> Launch SFFB</li>
+                            <li>SELL OUT</li>
+                            <li>Apply for secondary marketplace listings</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="sm-container affter after-rigth right">
+                    <div class="content">
+                        <h2>Q1
+                            2022</h2>
+                        <ol>
+                            <li> Charity Giveaway
 
+                            </li>
+                            <li> Launch Adopt-A-Penguin Program</li>
+                            <li> Secure Partnerships</li>
+                        </ol>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="sm-container after-left left">
+                <div class="content">
+                    <h2> Q2
+                        2022</h2>
+                    <ol>
+                        <li> SFFB Merch Release</li>
+                        <li> Stay tune for Roadmap 2.0</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- time-line-end -->
     <section class="bg-color-7 min-617 align-items-center d-flex justify-content-center">
@@ -301,7 +353,8 @@
             <img class="w-100" src="assets/img/png/big-logo.png" alt="">
         </div>
         <div class="d-flex gap-5 pt-4 ">
-            <a target="_blank" href="https://discord.com/channels/@me"> <img src="assets/img/svg/discord.svg" alt="discord"></a>
+            <a target="_blank" href="https://discord.com/channels/@me"> <img src="assets/img/svg/discord.svg"
+                    alt="discord"></a>
             <a target="_blank" href="https://x.com/?lang=en"> <img src="assets/img/svg/twitter.svg" alt="twitter"></a>
         </div>
         <p class="footer text-center mt-52 ">@Copyright 2021</p>
