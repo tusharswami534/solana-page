@@ -464,7 +464,7 @@ span {
 .team {
 
     font-family: var(--poppins);
-    font-size: var(--fs-4xl) !important;
+    font-size: var(--fs-4xl);
     font-weight: 700;
     line-height: 72px;
 }
