@@ -78,6 +78,7 @@ span {
 
 .navbar-link:hover {
     color: var(--sec);
+    -webkit-text-stroke: 1px var(--sec);
 }
 
 .bg-color {
