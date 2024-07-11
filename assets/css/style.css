@@ -711,8 +711,19 @@ span {
     text-align: center;
 }
 
-/* timeline-2 */
 
+/* timeline-2 */
+.boxs{
+    margin-bottom: 8px;
+}
+.accordion-item{
+    border: none !important;
+
+}
+.accordion-button{
+    box-shadow: none !important;
+    color: var(--dark) !important;
+}
 @media (max-width:992px) {
 
     /* rec-header */
