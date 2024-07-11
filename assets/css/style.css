@@ -1,4 +1,13 @@
+#loder {
+    width: 100%;
+    height: 100vh;
+    background: #fff url("/assets/img/gif/loder.gif") no-repeat center;
+    position: fixed;
+    z-index: 100;
+}
+
 /* header */
+
 
 .w-50px {
     width: 50px;
@@ -84,6 +93,10 @@ span {
 .bg-color {
     background-color: var(--main);
 
+}
+
+.accordion {
+    box-shadow: none;
 }
 
 
@@ -554,7 +567,7 @@ span {
 
 }
 
- .team {
+.team {
     font-family: "Poppins", sans-serif;
     font-size: var(--fs-48);
     font-weight: 700;

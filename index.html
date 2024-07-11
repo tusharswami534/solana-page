@@ -13,7 +13,8 @@
 
 </head>
 
-<body>
+<body onload="loding()">
+    <div id="loder"></div>
     <header class="bg-color">
         <div class="container">
             <nav class="d-flex py-2 align-items-center justify-content-between">
@@ -180,8 +181,8 @@
             </div>
         </div>
     </section>
-    
-    
+
+
     <section class="bg-color-6 pt-73 pb-107 position-relative">
 
         <img src="./assets/img/png/burgar-img.png" alt="burger" class="position-absolute left-burger-1">
@@ -367,6 +368,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+        const preloader = document.getElementById("loder");
+        function loding() {
+            preloader.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
