@@ -17,17 +17,7 @@
     right: 0 !important;
 }
 
-.show-nvabar {
-    right: 0 !important;
-}
 
-.menu-btn {
-    display: none;
-    border-radius: 20px;
-    border: none;
-    background-color: blue;
-    color: white;
-}
 
 .connect-wallet {
     padding: 12px 32px;
@@ -42,8 +32,7 @@
     cursor: pointer;
 
 }
-
-span {
+.menu-lines {
     width: 35px;
     height: 5px;
     margin-bottom: 5px;
@@ -55,8 +44,7 @@ span {
 }
 
 .line-3 {
-    width: 35px;
-    height: 35px;
+    
     z-index: 10;
 }
 
@@ -106,7 +94,7 @@ span {
     min-height: 700px;
 }
 
-.position-under-icon {
+.hero-section-logo {
     bottom: -48%;
     left: 35.5%;
 }
@@ -125,43 +113,43 @@ span {
     z-index: 0;
 }
 
-.bg-2 {
+.burger-2 {
     top: 6%;
     left: 13%;
 }
 
-.bg-3 {
+.burger-3 {
     top: 60%;
     left: -20%;
 }
 
-.bg-4 {
+.burger-4 {
     top: 102%;
     left: 5%;
 }
 
-.bg-5 {
+.burger-5 {
     top: 10%;
     right: 16%;
 }
 
-.bg-6 {
+.burger-6 {
     top: 4%;
     right: -8%;
 }
 
-.bg-7 {
+.burger-7 {
 
     bottom: -55%;
     right: 9%;
 }
 
-.bg-8 {
+.burger-8 {
     right: -8%;
     bottom: -37%;
 }
 
-.sec-1-head {
+.hero-section-header {
 
     font-family: var(--poppins);
     font-size: var(--fs-3xl);
@@ -178,10 +166,6 @@ span {
 
 }
 
-.top-left {
-    bottom: 0%;
-    left: 0%;
-}
 
 .pb-133 {
     padding-bottom: 133px;
@@ -193,7 +177,7 @@ span {
     background-color: var(--primary);
 }
 
-.dis-btn {
+.discover-btn {
     width: 219px;
     height: 53px;
     background-color: var(--sec);
@@ -203,7 +187,7 @@ span {
     transition: all 400ms linear;
 }
 
-.dis-btn:hover {
+.discover-btn:hover {
     background-color: var(--null);
     color: var(--sec);
 }
@@ -212,7 +196,7 @@ span {
     margin-top: 66px;
 }
 
-.sub-heading {
+.section-2-sub-heading {
 
     font-family: var(--poppins);
     font-size: var(--fs-4xl);
@@ -226,7 +210,7 @@ span {
     margin-top: 24px;
 }
 
-.sub-footer {
+.section-2-sub-footer {
 
     font-family: var(--poppins);
     font-size: var(fslg);
@@ -265,7 +249,7 @@ span {
     padding-bottom: 58px;
 }
 
-.number {
+.red-section-numbers {
 
     font-family: var(--poppins);
     font-size: var(--fs-4xl);
@@ -275,7 +259,7 @@ span {
 
 }
 
-.number-foot {
+.red-section-number-footer {
 
     font-family: var(--poppins);
     font-size: var(--fs-lg);
@@ -286,7 +270,7 @@ span {
 
 }
 
-.sec-3-header {
+.red-section-header{
     font-family: var(--poppins);
     font-size: var(--fs-4xl);
     color: var(--null);
@@ -312,25 +296,9 @@ span {
 
 }
 
-.qus {
-
-    font-family: var(--poppins);
-    font-size: var(--fs-2xl);
-    font-weight: 700;
-    line-height: 36px;
 
 
-}
 
-.ans {
-
-    font-family: var(--poppins);
-    font-size: var(--fs-2xl);
-    font-weight: 400;
-    line-height: 36px;
-
-
-}
 
 .pb-106 {
     padding-bottom: 106px !important;
@@ -345,47 +313,9 @@ span {
     margin: 0 auto;
 }
 
-.b-2 {
-    top: 85%;
-}
 
-.b-3 {
-    top: 48%;
-    left: 26%;
-}
 
-.b-4 {
-    top: 35%;
-}
 
-.b-5 {
-    top: 0%;
-    left: 16%;
-}
-
-.b-6 {
-    right: 0%;
-    top: 0%;
-}
-
-.b-7 {
-    right: 25%;
-    top: 72%;
-}
-
-.b-8 {
-    top: 70%;
-    right: 0%;
-}
-
-.b-9 {
-    top: 15%;
-    right: 31%;
-}
-
-.position-relative {
-    position: relative;
-}
 
 /* The actual timeline (the vertical ruler) */
 .timeline_box::after {
@@ -512,7 +442,7 @@ span {
     background: #fff03f !important;
 }
 
-.amet {
+.accordion-header-text {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -521,7 +451,7 @@ span {
     color: #000000;
 }
 
-.enim-text {
+.accordion-sm-text {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -539,7 +469,7 @@ span {
     margin-top: 88px;
 }
 
-.footer {
+.footer-text {
 
     font-family: var(--poppins);
     font-size: var(--fs-lg);
@@ -751,7 +681,6 @@ span {
         z-index: 1;
     }
 
-    /* rec-header-end */
     .min-500 {
         min-height: 500px;
     }
@@ -764,19 +693,16 @@ span {
         padding-left: 60px;
     }
 
-    /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
     }
 
-    /* Full-width containers */
     .sm-container {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
-    /* Make sure that all arrows are pointing leftwards */
     .sm-container::before {
         left: 60px;
         border: medium solid white;
@@ -784,13 +710,11 @@ span {
         border-color: transparent white transparent transparent;
     }
 
-    /* Make sure all circles are at the same spot */
     .left::after,
     .right::after {
         left: 15px;
     }
 
-    /* Make all right containers behave like the left ones */
     .right {
         left: 0%;
     }
@@ -814,7 +738,6 @@ span {
         width: 6px;
         background-color: var(--sec) !important;
         top: 26px;
-        /* bottom: 0; */
         height: 100%;
         left: 6%;
         margin-left: -3px;
