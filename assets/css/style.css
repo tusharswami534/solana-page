@@ -8,7 +8,6 @@
 
 /* header */
 
-
 .w-50px {
     width: 50px;
 }
@@ -17,9 +16,7 @@
     right: 0 !important;
 }
 
-
-
-.connect-wallet {
+.connect-wallet-btn {
     padding: 12px 32px;
     border-radius: 10px;
     background-color: var(--null);
@@ -30,8 +27,8 @@
     font-weight: 500;
     transition: all 400ms linear;
     cursor: pointer;
-
 }
+
 .menu-lines {
     width: 35px;
     height: 5px;
@@ -40,37 +37,35 @@
     display: flex;
     z-index: 10;
     transition: all 300ms linear;
-
-}
-
-.line-3 {
-    
-    z-index: 10;
-}
-
-.rotate {
-    transform: rotate(40deg);
     transform-origin: left;
+    border-radius: 10px;
 }
 
-.rotate-2 {
-    transform: rotate(-40deg);
-    transform-origin: left;
+.z-5 {
+    z-index: 5;
 }
 
-.connect-wallet:hover {
+.rotate35 {
+    transform: rotate(35deg);
+
+}
+
+.rotate-35 {
+    transform: rotate(-35deg);
+
+}
+
+.connect-wallet-btn:hover {
     background-color: var(--sec);
     color: var(--null);
 }
 
 
 .navbar-link {
-
     font-family: var(--poppins);
     font-size: var(--fs-lg);
     font-weight: 400;
     color: var(--dark);
-
 }
 
 .navbar-link:hover {
@@ -83,14 +78,9 @@
 
 }
 
-.accordion {
-    box-shadow: none;
-}
-
-
 /* header-end */
 /* section-1 */
-.min-600 {
+.min-700 {
     min-height: 700px;
 }
 
@@ -124,7 +114,7 @@
 }
 
 .burger-4 {
-    top: 102%;
+    top: 75%;
     left: 5%;
 }
 
@@ -140,13 +130,13 @@
 
 .burger-7 {
 
-    bottom: -55%;
+    bottom: -27%;
     right: 9%;
 }
 
 .burger-8 {
     right: -8%;
-    bottom: -37%;
+    bottom: -10%;
 }
 
 .hero-section-header {
@@ -184,7 +174,10 @@
     color: var(--null);
     border: 1px solid transparent;
     border-radius: 10px;
+    font-family: var(--poppins);
     transition: all 400ms linear;
+    font-size: var(--fs-xl);
+    font-weight: 500;
 }
 
 .discover-btn:hover {
@@ -196,10 +189,10 @@
     margin-top: 66px;
 }
 
-.section-2-sub-heading {
+.section-headings {
 
-    font-family: var(--poppins);
-    font-size: var(--fs-4xl);
+    font-family: var(--poppins) !important;
+    font-size: var(--fs-4xl) !important;
     font-weight: 700;
     line-height: 72px;
     color: var(--dark);
@@ -220,7 +213,7 @@
 
 }
 
-.cursor {
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -256,7 +249,6 @@
     font-weight: 700;
     line-height: 72px;
     color: var(--null);
-
 }
 
 .red-section-number-footer {
@@ -266,18 +258,6 @@
     font-weight: 400;
     line-height: 32.4px;
     color: var(--null);
-
-
-}
-
-.red-section-header{
-    font-family: var(--poppins);
-    font-size: var(--fs-4xl);
-    color: var(--null);
-    font-weight: 700;
-    line-height: 72px;
-    text-align: center;
-
 }
 
 /* section-4-end   */
@@ -285,20 +265,6 @@
 .bg-color-6 {
     background-color: var(--main);
 }
-
-.roadmap {
-
-    font-family: var(--poppins);
-    font-size: var(--fs-4xl);
-    font-weight: 700;
-    line-height: 72px;
-
-
-}
-
-
-
-
 
 .pb-106 {
     padding-bottom: 106px !important;
@@ -308,61 +274,18 @@
     padding-top: 73px;
 }
 
+.pb-73 {
+    padding-bottom: 73px;
+}
+
 .timeline {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.max-width-922 {
+    max-width: 922px;
 
-
-
-
-/* The actual timeline (the vertical ruler) */
-.timeline_box::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: var(--sec);
-    top: 26px;
-    /* bottom: 0; */
-    height: 100%;
-    left: 50%;
-    margin-left: -3px;
-}
-
-/* Container around content */
-.sm-container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-/* The circles on the timeline */
-.after-left::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -13px;
-    background-color: white;
-    border: 4px solid var(--null);
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.after-rigth::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: -12px !important;
-    background-color: white;
-    border: 4px solid var(--null);
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
 }
 
 /* Place the container to the left */
@@ -375,15 +298,12 @@
     left: 50%;
 }
 
-
-
-
 .right::after {
     left: -16px;
 }
 
 /* The actual content */
-.content {
+.timeline-content {
     padding: 20px 30px;
     background-color: white;
     position: relative;
@@ -391,9 +311,6 @@
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-
-
-
 
 /* section-5-time-end */
 /* section-6 */
@@ -405,22 +322,18 @@
     min-height: 617px;
 }
 
-.team {
-
-    font-family: var(--poppins);
-    font-size: var(--fs-4xl) !important;
-    font-weight: 700;
-    line-height: 72px;
-}
-
-.photo-subheading {
-
+.card-heading {
     font-family: var(--poppins);
     font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 36px;
     text-align: center;
+}
 
+.card-info {
+    font-family: var(--poppins);
+    font-size: var(--fs-lg);
+    font-weight: 400;
 }
 
 /* section-6-end */
@@ -429,16 +342,7 @@
     background-color: var(--main);
 }
 
-
-
-.box-1 {
-    width: 922px;
-    height: 154px;
-
-    background: #fff03f !important;
-}
-
-.boxs {
+.yellow-bg {
     background: #fff03f !important;
 }
 
@@ -461,7 +365,7 @@
     opacity: 70%;
 }
 
-.logo {
+.max-width-524 {
     max-width: 524px;
 }
 
@@ -476,7 +380,6 @@
     font-weight: 400;
     line-height: 32.4px;
     color: var(--third);
-
 }
 
 .mt-52 {
@@ -487,37 +390,15 @@
     margin-top: 58px;
 }
 
-.FAQ {
-
-    font-family: var(--poppins);
-    font-size: var(--fs-4xl);
-    font-weight: 700;
-    line-height: 72px;
-    text-align: left;
-
-}
-
-.team {
-    font-family: "Poppins", sans-serif;
-    font-size: var(--fs-48);
-    font-weight: 700;
-    line-height: 72px;
-    text-align: left;
-    padding-top: 42px;
-    padding-bottom: 38px;
-}
-
-
-
 /* section-7-end  */
 /* timeline */
 .left-burger-1 {
-    top: 6%;
+    top: -2%;
     left: 11%;
 }
 
 .left-burger-2 {
-    top: 33%;
+    top: 36%;
     left: 0%;
 }
 
@@ -528,7 +409,7 @@
 
 .left-burger-4 {
     bottom: 8%;
-    left: 0%;
+    left: -5%;
 }
 
 .right-burger-1 {
@@ -552,7 +433,7 @@
 }
 
 .timeline {
-    position: relative;
+
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -599,7 +480,7 @@
     left: -18px;
 }
 
-.content {
+.timeline-content {
     padding: 27px 23px 27px 23px;
     background-color: white;
     position: relative;
@@ -625,35 +506,17 @@
     line-height: 36px;
 }
 
-.jhon {
-    font-family: "Poppins", sans-serif;
-    font-size: var(--fs-24);
-    font-weight: 700;
-    line-height: 36px;
-    text-align: center;
-}
-
-.manager {
-    font-family: "Poppins", sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: center;
-}
-
-
 /* timeline-2 */
-.boxs{
-    margin-bottom: 8px;
-}
-.accordion-item{
-    border: none !important;
 
-}
-.accordion-button{
+.accordion-button {
     box-shadow: none !important;
     color: var(--dark) !important;
 }
+
+.pb-95 {
+    padding-bottom: 95px;
+}
+
 @media (max-width:992px) {
 
     /* rec-header */
@@ -684,10 +547,14 @@
     .min-500 {
         min-height: 500px;
     }
+
+    .section-headings {
+        font-size: var(--fs-3xl);
+    }
 }
 
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
     .container-t {
         width: 100%;
         padding-left: 60px;
@@ -747,5 +614,8 @@
         min-height: 400px;
     }
 
+    .section-headings {
+        font-size: var(--fs-2xl);
+    }
 
 }
